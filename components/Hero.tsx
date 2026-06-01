@@ -83,8 +83,9 @@ export default function Hero() {
         {/* Right — card */}
         <div className="hidden lg:flex justify-center">
           <div className="relative">
-            <div className="w-72 h-72 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center shadow-2xl shadow-blue-200">
-              <span className="text-8xl">👨‍💻</span>
+            <div className="w-72 h-72 rounded-3xl overflow-hidden shadow-2xl shadow-blue-200 border-4 border-white">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/profile.jpg" alt="Mario Mendez" className="w-full h-full object-cover" />
             </div>
             {/* Floating badges */}
             <div className="absolute -top-4 -right-6 bg-white rounded-2xl shadow-lg px-4 py-3 border border-gray-100">
