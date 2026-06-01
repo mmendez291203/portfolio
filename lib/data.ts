@@ -69,7 +69,7 @@ export const projects = [
     ],
     technologies: ["Next.js 14", "TypeScript", "Azure", "Cosmos DB", "Tailwind CSS"],
     github: "",
-    live: "",
+    live: "https://bjj-academy-app.azurewebsites.net/",
   },
 ];
 
