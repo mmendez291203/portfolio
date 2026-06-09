@@ -59,6 +59,19 @@ export const projects = [
     github: "https://github.com/mmendez291203",
   },
   {
+    name: "WhatsApp AI Bot — Restaurant Assistant",
+    description:
+      "Built a fully automated WhatsApp bot for a restaurant — answers FAQs, handles reservations end-to-end, and escalates to a human when needed. Includes an admin panel to manage conversations and configure the business.",
+    bullets: [
+      "Claude AI parses intent and responds in natural language via WhatsApp",
+      "Full reservation flow: collects name, date, time, and party size conversationally",
+      "Admin panel with conversation history, status tracking, and live config editor",
+    ],
+    technologies: ["Next.js", "TypeScript", "Claude API", "Twilio", "Neon", "Vercel"],
+    github: "https://github.com/mmendez291203/whatsapp-restaurant-bot",
+    live: "https://whatsapp-restaurant-bot-mu.vercel.app",
+  },
+  {
     name: "BJJ Academy — Full-Stack Web App",
     description:
       "Designed and built a complete web platform for a local sports academy — their full operation online: student management, belt tracking, attendance, a blog, and a parent portal for kids.",
